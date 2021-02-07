@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         val myCanvasView = MyCanvasView(this)
         // No XML file; just one custom view created programmatically.
         // Request the full available screen for layout.
-        myCanvasView.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
+//        myCanvasView.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
         myCanvasView.contentDescription = getString(R.string.canvasContentDescription)
         setContentView(myCanvasView)
     }
